@@ -7,7 +7,7 @@ using Microsoft.Win32.SafeHandles;
 namespace AutoAudio
 {
     /// <summary>Contains methods for calling native windows apis.</summary>
-    static class NativeWindows
+    internal static class NativeWindows
     {
         private const int STD_OUTPUT_HANDLE = -11;
         private const int MY_CODE_PAGE = 437;
