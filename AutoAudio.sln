@@ -5,12 +5,6 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAudio", "AutoAudio\AutoAudio.csproj", "{4A35BB78-426C-4E4E-B89C-47CEED4E0F3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAudio.Pu", "AutoAudio.Pu\AutoAudio.Pu.csproj", "{7D93F4EC-1B89-4451-8B43-4498D9F683FB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAudio.G930", "AutoAudio.G930\AutoAudio.G930.csproj", "{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlackMagic", "AutoAudio.G930\Blackmagic-master\Blackmagic-master\BlackMagic\BlackMagic.csproj", "{79FD54B0-DEAB-459F-83B9-F1CED68D288B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,30 +21,6 @@ Global
 		{4A35BB78-426C-4E4E-B89C-47CEED4E0F3F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4A35BB78-426C-4E4E-B89C-47CEED4E0F3F}.Release|x64.ActiveCfg = Release|Any CPU
 		{4A35BB78-426C-4E4E-B89C-47CEED4E0F3F}.Release|x64.Build.0 = Release|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Debug|x64.Build.0 = Debug|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Release|x64.ActiveCfg = Release|Any CPU
-		{7D93F4EC-1B89-4451-8B43-4498D9F683FB}.Release|x64.Build.0 = Release|Any CPU
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Debug|x64.ActiveCfg = Debug|x64
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Debug|x64.Build.0 = Debug|x64
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Release|x64.ActiveCfg = Release|x64
-		{17EDEA59-C895-47D1-B11B-9BBF4B11F8F7}.Release|x64.Build.0 = Release|x64
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Debug|x64.Build.0 = Debug|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|x64.ActiveCfg = Release|Any CPU
-		{79FD54B0-DEAB-459F-83B9-F1CED68D288B}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -100,12 +100,6 @@
     <Content Include="audio.ico" />
     <Content Include="FodyWeavers.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\AutoAudio.G930\Blackmagic-master\Blackmagic-master\BlackMagic\BlackMagic.csproj">
-      <Project>{79fd54b0-deab-459f-83b9-f1ced68d288b}</Project>
-      <Name>BlackMagic</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.3\build\dotnet\Fody.targets" Condition="Exists('..\packages\Fody.1.29.3\build\dotnet\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
