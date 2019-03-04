@@ -9,11 +9,12 @@
         /// <summary>Gets or sets the hour when night time(see <em>NightTimeDontSwitchFromThisAudioDevice</em>) ends.</summary>
         /// <value>The night time end hour(0-23).</value>
         public int NightTimeEnd { get; set; }
+
         /// <summary>
         /// Gets or sets the night time audio device. If this audio devices is active during night time hours(see <em>NightTimeStart</em> and <em>NightTimeEnd</em>) then the default audio device is not switched back to the other device. This was implemented to prevent accidental switching to speakers and blasting louds music during the night.
         /// </summary>
         /// <value>The night time audio device.</value>
-        public string NightTimeDontSwitchFromThisAudioDevice { get; set; }
+        public string NightTimeDontSwitchFromThisAudioDevice { get; set; } = "";
 
         /// <summary>Gets or sets the version.</summary>
         /// <value>The version.</value>

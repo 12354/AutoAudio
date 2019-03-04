@@ -40,6 +40,7 @@ namespace AutoAudio
             {
                 Environment.CurrentDirectory = Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location)
                                                ?? Environment.CurrentDirectory;
+                
                 var controller = new CoreAudioController();
 
                 var options = new AutoAudioOptions();
